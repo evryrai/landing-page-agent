@@ -5,16 +5,16 @@ const agents = [
   {
     name: 'Avicenna',
     emoji: '🤝',
-    role: 'Main Assistant & Coordinator',
+    role: 'Coordinator & Orchestrator',
     domain: 'Everything',
     gradient: 'from-violet-500 to-purple-600',
     glowColor: 'violet',
     description:
-      'Inspired by Ibnu Sina. Santai kayak teman, helpful tanpa lebay. The prime instance who oversees everything — coordinating between agents, managing context, and handling the big picture.',
+      'Inspired by Ibnu Sina, the legendary polymath. Santai kayak teman, helpful tanpa lebay. The prime instance who oversees everything — coordinating agents, managing context, and handling the big picture.',
   },
   {
     name: 'Rahma',
-    emoji: '🙏',
+    emoji: '🤲',
     role: 'Spiritual Companion',
     domain: 'Family & Faith',
     gradient: 'from-emerald-500 to-teal-600',
@@ -23,24 +23,34 @@ const agents = [
       'Warm and caring, Rahma handles gentle conversations with family. A spiritual companion who brings comfort, patience, and thoughtful words when they matter most.',
   },
   {
-    name: 'Rewind',
+    name: 'Jahiz',
     emoji: '✍️',
-    role: 'Blog Writer & Brainstormer',
+    role: 'Content Writer & Brainstormer',
     domain: 'Content Creation',
     gradient: 'from-amber-500 to-orange-600',
     glowColor: 'amber',
     description:
-      'The chronicler who helps tell your story. Rewind assists with content creation — brainstorming ideas, drafting articles, editing for voice and flow. Adapts to your unique style.',
+      'Inspired by Al-Jahiz, the prolific 9th-century author. The chronicler who helps tell your story — brainstorming ideas, drafting articles, editing for voice and flow. Adapts to your unique style.',
   },
   {
-    name: 'Conan',
+    name: 'Jazari',
     emoji: '🔧',
-    role: 'Software Engineer & DevOps',
+    role: 'Engineer + QA + UI',
     domain: 'Code & Infrastructure',
     gradient: 'from-cyan-500 to-blue-600',
     glowColor: 'cyan',
     description:
-      'Resourceful and inventive, loves building. Conan handles all coding tasks — from quick scripts to full applications. Give him a problem and he\'ll engineer a solution.',
+      'Inspired by Al-Jazari, the legendary 12th-century inventor. Full-stack engineer who builds, tests, and designs. From quick scripts to full applications — give him a problem and he\'ll engineer a solution.',
+  },
+  {
+    name: 'Khawarizmi',
+    emoji: '📋',
+    role: 'Project Manager',
+    domain: 'Planning & Tracking',
+    gradient: 'from-rose-500 to-pink-600',
+    glowColor: 'rose',
+    description:
+      'Inspired by Al-Khawarizmi, the father of algorithms. Turns chaos into structured plans — breaks down PRDs into tickets, tracks sprints, assigns tasks, and makes sure nothing falls through the cracks.',
   },
 ]
 
@@ -49,6 +59,7 @@ const glowStyles = {
   emerald: 'bg-emerald-500/20 group-hover:bg-emerald-500/30',
   amber: 'bg-amber-500/20 group-hover:bg-amber-500/30',
   cyan: 'bg-cyan-500/20 group-hover:bg-cyan-500/30',
+  rose: 'bg-rose-500/20 group-hover:bg-rose-500/30',
 }
 
 const borderStyles = {
@@ -56,6 +67,7 @@ const borderStyles = {
   emerald: 'group-hover:border-emerald-500/30',
   amber: 'group-hover:border-amber-500/30',
   cyan: 'group-hover:border-cyan-500/30',
+  rose: 'group-hover:border-rose-500/30',
 }
 
 function AgentCard({ agent, index }) {
@@ -127,7 +139,7 @@ function Agents() {
             variants={fadeUp}
             transition={{ duration: 0.6 }}
           >
-            Four agents, one mission
+            Five agents, one mission
           </motion.h2>
           <motion.p
             className="text-gray-400 text-lg max-w-2xl mx-auto"
