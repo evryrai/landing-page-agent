@@ -8,11 +8,13 @@ Built with React, Tailwind CSS, and Framer Motion.
 
 | Agent | Role | Inspired By |
 |-------|------|-------------|
-| **Avicenna** 🤝 | Coordinator & orchestrator | Ibnu Sina — polymath |
+| **Avicenna** 🤝 | Chief (Project Manager & Coordinator) | Ibnu Sina — polymath |
+| **Picaso** 💻 | Lead Software Engineer & DevOps | Evry Rai — engineer |
 | **Khawarizmi** 📋 | Project Manager | Al-Khawarizmi — father of algorithms |
-| **Jazari** 🔧 | Engineer + QA + UI | Al-Jazari — inventor & engineer |
-| **Jahiz** ✍️ | Content Writer | Al-Jahiz — writer & author |
-| **Rahma** 🤲 | Spiritual Companion | Akhlak Rasulullah ﷺ |
+| **Khawarizmi** 📋 | Project Manager | Al-Khawarizmi — father of algorithms |
+| **Sherlock** 🔎 | Security & Incident Responder (Code security, PR review) | Conan Doyle — detective |
+| **Rahma** 🤲 | Spiritual & Mental Health Counselor | Akhlak Rasulullah ﷺ |
+| **Rewind** ⏪ | Writing Partner & Content Editor | Evry Rai — writer |
 
 ## Tech Stack
 
