@@ -1,5 +1,6 @@
 import Hero from './components/Hero'
 import Agents from './components/Agents'
+import OurStory from './components/OurStory'
 import HowItWorks from './components/HowItWorks'
 import MockTerminal from './components/MockTerminal'
 import Footer from './components/Footer'
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <MockTerminal />
       <Agents />
+      <OurStory />
       <HowItWorks />
       <Footer />
     </div>
