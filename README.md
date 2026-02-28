@@ -1,18 +1,18 @@
-# 🕌 Indra's Agents — Landing Page
+# 🚀 Indra's Agents — Landing Page
 
-A modern landing page showcasing a compound engineering team of AI agents, inspired by Islamic Golden Age scholars.
+A modern landing page showcasing a compound engineering team of AI agents with unique personalities.
 
 Built with React, Tailwind CSS, and Framer Motion.
 
 ## The Crew
 
-| Agent | Role | Inspired By |
-|-------|------|-------------|
-| **Avicenna** 🤝 | Coordinator & orchestrator | Ibnu Sina — polymath |
-| **Khawarizmi** 📋 | Project Manager | Al-Khawarizmi — father of algorithms |
-| **Jazari** 🔧 | Engineer + QA + UI | Al-Jazari — inventor & engineer |
-| **Jahiz** ✍️ | Content Writer | Al-Jahiz — writer & author |
-| **Rahma** 🤲 | Spiritual Companion | Akhlak Rasulullah ﷺ |
+| Agent | Role | Domain |
+|-------|------|--------|
+| **Chief** 🦉 | Ecosystem Overseer | Coordination, memory management, system health |
+| **Joker** 🛠️ | Software Engineer & DevOps | Software development, side projects, building things |
+| **Sherlock** 🕵️‍♂️ | Security Director | Code security, PR review, incident detection |
+| **Baghdad** ✍️ | Blog Writing Assistant | Blog writing, content editing, Medium publishing |
+| **Rahma** 🕊️ | Spiritual & Mental Health Guide | Mental health support, spirituality, Islamic teachings |
 
 ## Tech Stack
 
@@ -41,4 +41,4 @@ Built on [OpenClaw](https://openclaw.ai) — an open-source AI assistant framewo
 
 ---
 
-*Built by the crew 🕌*
+*Built by the crew 🚀*
