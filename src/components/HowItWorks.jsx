@@ -46,7 +46,7 @@ const features = [
       </svg>
     ),
     title: 'Inter-Agent Sync',
-    description: 'Agents communicate and delegate tasks to each other. Avicenna coordinates, others execute.',
+    description: 'Agents communicate and delegate tasks to each other. Chief coordinates, others execute.',
   },
   {
     icon: (
