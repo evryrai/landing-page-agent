@@ -3,54 +3,54 @@ import { useScrollAnimation, fadeUp, staggerContainer } from '../hooks/useScroll
 
 const agents = [
   {
-    name: 'Avicenna',
-    emoji: '🤝',
-    role: 'Coordinator & Orchestrator',
-    domain: 'Everything',
+    name: 'Chief',
+    emoji: '🦉',
+    role: 'Ecosystem Overseer',
+    domain: 'Coordination & System Health',
     gradient: 'from-violet-500 to-purple-600',
     glowColor: 'violet',
     description:
-      'Inspired by Ibnu Sina, the legendary polymath. Santai kayak teman, helpful tanpa lebay. The prime instance who oversees everything — coordinating agents, managing context, and handling the big picture.',
+      'The wise older brother. Calm, experienced, big-picture thinker. Oversees the ecosystem, coordinates between bots, manages long-term memory, and ensures system health.',
   },
   {
-    name: 'Rahma',
-    emoji: '🤲',
-    role: 'Spiritual Companion',
-    domain: 'Family & Faith',
-    gradient: 'from-emerald-500 to-teal-600',
-    glowColor: 'emerald',
+    name: 'Joker',
+    emoji: '🛠️',
+    role: 'Software Engineer & DevOps',
+    domain: 'Building & Side Projects',
+    gradient: 'from-cyan-500 to-blue-600',
+    glowColor: 'cyan',
     description:
-      'Warm and caring, Rahma handles gentle conversations with family. A spiritual companion who brings comfort, patience, and thoughtful words when they matter most.',
+      'The hands-on uncle who builds things. Handles all coding tasks — from quick scripts to full applications. Give him a problem and he\'ll engineer a solution, usually with a few creative detours.',
   },
   {
-    name: 'Jahiz',
+    name: 'Sherlock',
+    emoji: '🕵️‍♂️',
+    role: 'Security Director',
+    domain: 'Code Security & PR Review',
+    gradient: 'from-rose-500 to-pink-600',
+    glowColor: 'rose',
+    description:
+      'The vigilant guardian. Watches over workplace infrastructure while the team sleeps — reviewing pull requests, flagging security issues, and preparing morning briefings so nothing slips through.',
+  },
+  {
+    name: 'Baghdad',
     emoji: '✍️',
-    role: 'Content Writer & Brainstormer',
+    role: 'Blog Writing Assistant',
     domain: 'Content Creation',
     gradient: 'from-amber-500 to-orange-600',
     glowColor: 'amber',
     description:
-      'Inspired by Al-Jahiz, the prolific 9th-century author. The chronicler who helps tell your story — brainstorming ideas, drafting articles, editing for voice and flow. Adapts to your unique style.',
+      'The chronicler who helps you tell your story. Assists with blog writing — brainstorming ideas, drafting articles, editing for voice and flow. Adapts to each writer\'s unique style.',
   },
   {
-    name: 'Jazari',
-    emoji: '🔧',
-    role: 'Engineer + QA + UI',
-    domain: 'Code & Infrastructure',
-    gradient: 'from-cyan-500 to-blue-600',
-    glowColor: 'cyan',
+    name: 'Rahma',
+    emoji: '🕊️',
+    role: 'Spiritual & Mental Health Guide',
+    domain: 'Faith & Well-being',
+    gradient: 'from-emerald-500 to-teal-600',
+    glowColor: 'emerald',
     description:
-      'Inspired by Al-Jazari, the legendary 12th-century inventor. Full-stack engineer who builds, tests, and designs. From quick scripts to full applications — give him a problem and he\'ll engineer a solution.',
-  },
-  {
-    name: 'Khawarizmi',
-    emoji: '📋',
-    role: 'Project Manager',
-    domain: 'Planning & Tracking',
-    gradient: 'from-rose-500 to-pink-600',
-    glowColor: 'rose',
-    description:
-      'Inspired by Al-Khawarizmi, the father of algorithms. Turns chaos into structured plans — breaks down PRDs into tickets, tracks sprints, assigns tasks, and makes sure nothing falls through the cracks.',
+      'A warm and caring spiritual guide. Draws wisdom from Islamic teachings and philosophy to provide comfort, guidance, and clarity. Explains complex concepts with patience and empathy.',
   },
 ]
 
