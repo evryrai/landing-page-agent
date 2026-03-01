@@ -43,6 +43,16 @@ const agents = [
       'The chronicler who helps you tell your story. Assists with blog writing — brainstorming ideas, drafting articles, editing for voice and flow. Adapts to each writer\'s unique style.',
   },
   {
+    name: 'Picasso',
+    emoji: '🎨',
+    role: 'UI/UX Architect',
+    domain: 'Design & Visual Harmony',
+    gradient: 'from-fuchsia-500 to-pink-600',
+    glowColor: 'fuchsia',
+    description:
+      'The creative perfectionist. Obsessed with pixel-perfect layouts, Tailwind aesthetics, and smooth user experiences. Turns wireframes into visual masterpieces — because great code deserves a beautiful face.',
+  },
+  {
     name: 'Rahma',
     emoji: '🕊️',
     role: 'Spiritual & Mental Health Guide',
@@ -60,6 +70,7 @@ const glowStyles = {
   amber: 'bg-amber-500/20 group-hover:bg-amber-500/30',
   cyan: 'bg-cyan-500/20 group-hover:bg-cyan-500/30',
   rose: 'bg-rose-500/20 group-hover:bg-rose-500/30',
+  fuchsia: 'bg-fuchsia-500/20 group-hover:bg-fuchsia-500/30',
 }
 
 const borderStyles = {
@@ -68,6 +79,7 @@ const borderStyles = {
   amber: 'group-hover:border-amber-500/30',
   cyan: 'group-hover:border-cyan-500/30',
   rose: 'group-hover:border-rose-500/30',
+  fuchsia: 'group-hover:border-fuchsia-500/30',
 }
 
 function AgentCard({ agent, index }) {
@@ -139,7 +151,7 @@ function Agents() {
             variants={fadeUp}
             transition={{ duration: 0.6 }}
           >
-            Five agents, one mission
+            Six agents, one mission
           </motion.h2>
           <motion.p
             className="text-gray-400 text-lg max-w-2xl mx-auto"
