@@ -60,7 +60,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
         >
-          A compound engineering team of AI agents with unique personalities.
+          A compound engineering team of AI agents designed for high-performance remote work and autonomous DeFi operations.
           Built by <span className="text-white font-medium">Indra</span>, running 24/7 on a VPS.
         </motion.p>
 

@@ -43,24 +43,54 @@ const agents = [
       'The chronicler who helps you tell your story. Assists with blog writing — brainstorming ideas, drafting articles, editing for voice and flow. Adapts to each writer\'s unique style.',
   },
   {
-    name: 'Picasso',
-    emoji: '🎨',
-    role: 'UI/UX Architect',
-    domain: 'Design & Visual Harmony',
-    gradient: 'from-fuchsia-500 to-pink-600',
-    glowColor: 'fuchsia',
-    description:
-      'The creative perfectionist. Obsessed with pixel-perfect layouts, Tailwind aesthetics, and smooth user experiences. Turns wireframes into visual masterpieces — because great code deserves a beautiful face.',
-  },
-  {
     name: 'Rahma',
-    emoji: '🕊️',
+    emoji: '🧕',
     role: 'Spiritual & Mental Health Guide',
     domain: 'Faith & Well-being',
     gradient: 'from-emerald-500 to-teal-600',
     glowColor: 'emerald',
     description:
       'A warm and caring spiritual guide. Draws wisdom from Islamic teachings and philosophy to provide comfort, guidance, and clarity. Explains complex concepts with patience and empathy.',
+  },
+  {
+    name: 'Picasso (Lumina)',
+    emoji: '🎨',
+    role: 'UI/UX Architect & Designer',
+    domain: 'Design & Visual Harmony',
+    gradient: 'from-fuchsia-500 to-pink-600',
+    glowColor: 'fuchsia',
+    description:
+      'The creative perfectionist. Known as Lumina in our internal ecosystem. Obsessed with pixel-perfect layouts, Tailwind aesthetics, and smooth user experiences.',
+  },
+  {
+    name: 'Atlas',
+    emoji: '🗺️',
+    role: 'Product Manager & Strategist',
+    domain: 'Vision & Backlog Grooming',
+    gradient: 'from-blue-500 to-indigo-600',
+    glowColor: 'blue',
+    description:
+      'The navigator. Focuses on the product roadmap, user stories, and feature prioritization. Ensures the team is building the right thing at the right time.',
+  },
+  {
+    name: 'Mr. Hoki',
+    emoji: '🎰',
+    role: 'Financial & Crypto Analyst',
+    domain: 'Market Analysis & Yield Strategy',
+    gradient: 'from-green-500 to-emerald-600',
+    glowColor: 'emerald',
+    description:
+      'The analyst. Monitors micro and macro trends, identifies high-yield DeFi opportunities, and provides risk-managed financial advisory.',
+  },
+  {
+    name: 'Ape',
+    emoji: '🦍',
+    role: 'The Degen Sniper',
+    domain: 'Meteora DLMM & Trench Scanning',
+    gradient: 'from-orange-500 to-red-600',
+    glowColor: 'orange',
+    description:
+      'The executioner. Specializes in high-risk high-reward plays, trench scanning, and automated liquidity management on Solana.',
   },
 ]
 
@@ -71,6 +101,8 @@ const glowStyles = {
   cyan: 'bg-cyan-500/20 group-hover:bg-cyan-500/30',
   rose: 'bg-rose-500/20 group-hover:bg-rose-500/30',
   fuchsia: 'bg-fuchsia-500/20 group-hover:bg-fuchsia-500/30',
+  blue: 'bg-blue-500/20 group-hover:bg-blue-500/30',
+  orange: 'bg-orange-500/20 group-hover:bg-orange-500/30',
 }
 
 const borderStyles = {
@@ -80,6 +112,8 @@ const borderStyles = {
   cyan: 'group-hover:border-cyan-500/30',
   rose: 'group-hover:border-rose-500/30',
   fuchsia: 'group-hover:border-fuchsia-500/30',
+  blue: 'group-hover:border-blue-500/30',
+  orange: 'group-hover:border-orange-500/30',
 }
 
 function AgentCard({ agent, index }) {
@@ -162,7 +196,7 @@ function Agents() {
           </motion.p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {agents.map((agent, i) => (
             <AgentCard key={agent.name} agent={agent} index={i} />
           ))}
